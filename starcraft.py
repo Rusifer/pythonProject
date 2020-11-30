@@ -97,11 +97,4 @@ battelcruiser = FlyableAttackUnit("배틀크루저", 500, 25, 3);
 vulture.move("11시")
 battelcruiser.move("9시")
 game_over()
-# firebat2 = AttackUnit("파이어뱃", 50, 5, 16)
-# firebat2.attack("5시")
-#
-# firebat2.damaged(25)
-# firebat2.damaged(25)
-#
-# valkyrie = FlyableAttackUnit("발키리", 200, 6, 5)
-# valkyrie.fly(valkyrie.name, "5시")
+
