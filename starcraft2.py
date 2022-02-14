@@ -6,6 +6,7 @@ class Unit:
 class Flyable:
     def __init__(self):
         print("Flyable 생성자")
+        print("Flyable 생성자2")
 
 
 class FlyableUnit(Flyable, Unit):
