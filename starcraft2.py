@@ -1,12 +1,13 @@
 class Unit:
     def __init__(self):
-        print("Unit 생성자")
+        print("Unit 생성자1")
 
 
 class Flyable:
     def __init__(self):
         print("Flyable 생성자")
         print("Flyable 생성자2")
+        print("Flyable 생성자1")
 
 
 class FlyableUnit(Flyable, Unit):
